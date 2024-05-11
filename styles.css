@@ -1,0 +1,77 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #b37f9f;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background: #dfdddd;
+    color: #080808;
+    padding: 20px 0;
+    text-align: center;
+}
